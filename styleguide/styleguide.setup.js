@@ -6,6 +6,7 @@ global.Intent = Intent;
 import {
   ButtonGroup,
   Callout,
+  Card,
   Navbar,
   NavbarGroup,
   NavbarHeading,
@@ -13,6 +14,7 @@ import {
 } from '../src/index';
 global.ButtonGroup = ButtonGroup;
 global.Callout = Callout;
+global.Card = Card;
 global.Navbar = Navbar;
 global.NavbarGroup = NavbarGroup;
 global.NavbarHeading = NavbarHeading;
