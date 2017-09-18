@@ -1,0 +1,16 @@
+table tr:nth-last-of-type(even) td {
+  background: #f2f2f2;
+}
+
+.mr {
+  margin-right: 10px !important;
+}
+
+.mb {
+  margin-bottom: 10px !important;
+}
+
+
+.CodeMirror pre {
+  box-shadow: none;
+}
