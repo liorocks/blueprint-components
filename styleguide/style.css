@@ -10,6 +10,13 @@ table tr:nth-last-of-type(even) td {
   margin-bottom: 10px !important;
 }
 
+.df {
+  display: flex;
+}
+
+.df > div {
+  flex: 1;
+}
 
 .CodeMirror pre {
   box-shadow: none;
