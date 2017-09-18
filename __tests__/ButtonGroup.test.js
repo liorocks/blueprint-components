@@ -43,5 +43,4 @@ describe('<ButtonGroup />', () => {
       '<div class="pt-button-group pt-align-left"></div>'
     );
   });
-
 });

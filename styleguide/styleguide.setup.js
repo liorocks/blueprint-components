@@ -3,7 +3,14 @@ global.Button = Button;
 global.Classes = Classes;
 global.Intent = Intent;
 
-import { ButtonGroup, Callout, Navbar, NavbarGroup, NavbarHeading, NavbarDivider } from '../src/index';
+import {
+  ButtonGroup,
+  Callout,
+  Navbar,
+  NavbarGroup,
+  NavbarHeading,
+  NavbarDivider,
+} from '../src/index';
 global.ButtonGroup = ButtonGroup;
 global.Callout = Callout;
 global.Navbar = Navbar;

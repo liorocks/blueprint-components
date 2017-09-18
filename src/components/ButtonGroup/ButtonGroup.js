@@ -2,9 +2,29 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 
-const ButtonGroup = ({ children, align, large, minimal, fill, vertical, className, ...rest }) => {
+const ButtonGroup = ({
+  children,
+  align,
+  large,
+  minimal,
+  fill,
+  vertical,
+  className,
+  ...rest
+}) => {
   return (
-    <div className={classnames('pt-button-group', {'pt-large': large}, {'pt-align-left': align === 'left'}, {'pt-minimal': minimal}, {'pt-fill': fill}, {'pt-vertical': vertical}, className)} {...rest}>
+    <div
+      className={classnames(
+        'pt-button-group',
+        { 'pt-large': large },
+        { 'pt-align-left': align === 'left' },
+        { 'pt-minimal': minimal },
+        { 'pt-fill': fill },
+        { 'pt-vertical': vertical },
+        className
+      )}
+      {...rest}
+    >
       {children}
     </div>
   );

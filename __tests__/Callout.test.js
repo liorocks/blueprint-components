@@ -40,5 +40,4 @@ describe('<Callout />', () => {
       '<div class="pt-callout pt-intent-danger"></div>'
     );
   });
-
 });

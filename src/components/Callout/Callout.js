@@ -10,7 +10,15 @@ const Callout = ({ children, intent, className, iconName, ...rest }) => {
     'pt-intent-danger': intent === 3,
   };
   return (
-    <div className={classnames('pt-callout', intentStyles, {[`pt-icon-${iconName}`]: iconName}, className)} {...rest}>
+    <div
+      className={classnames(
+        'pt-callout',
+        intentStyles,
+        { [`pt-icon-${iconName}`]: iconName },
+        className
+      )}
+      {...rest}
+    >
       {children}
     </div>
   );
@@ -39,7 +47,7 @@ Callout.propTypes = {
    * Name for the icon. 
    * Note: `pt-icon` prefix is unnecessary. See [list of icons](http://blueprintjs.com/docs/#core/icons).
    */
-  iconName: PropTypes.string
+  iconName: PropTypes.string,
 };
 
 /**
