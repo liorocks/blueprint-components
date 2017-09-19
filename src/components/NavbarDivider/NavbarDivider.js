@@ -1,25 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const NavbarDivider = ({ children, ...rest }) => {
+const NavbarDivider = ({ ...rest }) => {
   return <span className="pt-navbar-divider" {...rest} />;
 };
 
 /**
  * NavbarDivider property types.
  */
-NavbarDivider.propTypes = {
-  /**
-   * Primary content.
-   */
-  children: PropTypes.node,
-};
+NavbarDivider.propTypes = {};
 
 /**
  * NavbarDivider default properties.
  */
-NavbarDivider.defaultProps = {
-  children: null,
-};
+NavbarDivider.defaultProps = {};
 
 export default NavbarDivider;
