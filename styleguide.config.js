@@ -6,6 +6,8 @@ const sections = require('./styleguide/styleguide.sections')
 module.exports = {
   title: 'Blueprint Components',
   styleguideDir: 'build',
+  assetsDir: './styleguide/assets',
+  template: './styleguide/index.html',
   skipComponentsWithoutExample: true,
   highlightTheme: 'material',
   showUsage: true,
@@ -16,7 +18,7 @@ module.exports = {
     path.join(__dirname, './styleguide/style.css'),
   ],
   theme: {
-    sidebarWidth: 230,
+    // sidebarWidth: 230,
     color: {
       baseBackground: '#f5f8fa',
       sidebarBackground: '#137cbd',

@@ -101,8 +101,14 @@ module.exports = {
       background: 'white',
     },
     code: {
+      color: '#5c7080',
+      fontSize: '80%',
+      boxShadow: 'inset 0 0 0 1px rgba(16, 22, 26, 0.2)',
+      background: 'rgba(255, 255, 255, 0.7)',
+      padding: '2px 5px',
+      // old styles
       margin: 0,
-      padding: 0, //'1px 4px',
+      // padding: 0, //'1px 4px',
       // background: '#f3f4f4',
       border: 0,
       borderRadius: 3,

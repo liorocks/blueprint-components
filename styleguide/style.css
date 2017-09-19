@@ -21,3 +21,24 @@ table tr:nth-last-of-type(even) td {
 .CodeMirror pre {
   box-shadow: none;
 }
+
+div[class*="rsg--logo"] {
+  background: url('/blueprint-logo.svg') 20px center no-repeat;
+  border-bottom: 0;
+}
+
+h1[class*="rsg--logo"] {
+  padding-left: 40px;
+  font-size: 16px;
+}
+
+div[class*="rsg--sidebar"] {
+  border-right: 0;
+}
+
+pre > code[class*="rsg--code"] {
+  background: none;
+  box-shadow: none;
+  padding: 0;
+  font-size: 90%;
+}
