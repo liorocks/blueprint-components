@@ -23,7 +23,6 @@ table tr:nth-last-of-type(even) td {
 }
 
 div[class*="rsg--logo"] {
-  background: url('/blueprint-logo.svg') 20px center no-repeat;
   border-bottom: 0;
 }
 
