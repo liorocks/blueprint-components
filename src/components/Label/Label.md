@@ -24,7 +24,7 @@ Simple labels are useful for basic forms for a single `<input />`.
 ```
 
 ### Inline Label
-To place `label` text and children elements on same line, add optioanl `inline` prop:
+To place `label` text and children elements on same line, add optional `inline` prop:
 
 ```html static
 <Label inline>
