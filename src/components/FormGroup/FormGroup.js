@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
+import { intentStyles } from '../../utils';
 
 const FormGroup = ({
   children,
@@ -13,12 +14,6 @@ const FormGroup = ({
   helper,
   ...rest
 }) => {
-  const intentStyles = {
-    'pt-intent-primary': intent === 0,
-    'pt-intent-success': intent === 1,
-    'pt-intent-warning': intent === 2,
-    'pt-intent-danger': intent === 3,
-  };
   return (
     <div
       className={classnames(
@@ -26,7 +21,7 @@ const FormGroup = ({
         { 'pt-inline': inline },
         { 'pt-disabled': disabled },
         { 'pt-large': large },
-        intentStyles,
+        intentStyles(intent),
         className
       )}
       {...rest}

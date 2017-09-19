@@ -1,19 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
+import { intentStyles } from '../../utils';
 
 const Callout = ({ children, intent, className, iconName, ...rest }) => {
-  const intentStyles = {
-    'pt-intent-primary': intent === 0,
-    'pt-intent-success': intent === 1,
-    'pt-intent-warning': intent === 2,
-    'pt-intent-danger': intent === 3,
-  };
   return (
     <div
       className={classnames(
         'pt-callout',
-        intentStyles,
+        intentStyles(intent),
         { [`pt-icon-${iconName}`]: iconName },
         className
       )}
