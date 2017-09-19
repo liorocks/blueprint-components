@@ -16,14 +16,15 @@ module.exports = {
     path.join(__dirname, './styleguide/style.css'),
   ],
   theme: {
+    sidebarWidth: 230,
     color: {
-      // baseBackground: '#f5f8fa',
+      baseBackground: '#f5f8fa',
       sidebarBackground: '#137cbd',
       base: '#50596c',
       type: '#137cbd',
       link: '#137cbd',
       linkHover: '#137cbd',
-      border: '#137cbd'
+      border: '#dbdcdd'
     }
   },
   styles: styles,

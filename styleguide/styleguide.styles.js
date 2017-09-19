@@ -49,7 +49,8 @@ module.exports = {
   },
   Table: {
     table: {
-      border: '1px solid #137cbd',
+      border: '1px solid #dbdcdd',
+      background: 'white',
       marginBottom: 0,
     },
     cellHeading: {
@@ -89,16 +90,20 @@ module.exports = {
   },
   Markdown: {
     blockquote: {
+      background: 'white',
       color: '#6a737d',
-      padding: '0 1em',
+      padding: '1em',
       borderLeft: '4px solid #dfe2e5',
       marginLeft: 0,
       marginRight: 0,
     },
+    pre: {
+      background: 'white',
+    },
     code: {
       margin: 0,
-      padding: '1px 4px',
-      background: '#f3f4f4',
+      padding: 0, //'1px 4px',
+      // background: '#f3f4f4',
       border: 0,
       borderRadius: 3,
       '&:empty': {
