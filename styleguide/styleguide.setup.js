@@ -1,15 +1,24 @@
-import { Button, Classes, Icon, InputGroup, Intent } from '@blueprintjs/core';
+import {
+  Button,
+  Classes,
+  Icon,
+  InputGroup,
+  Intent,
+  Switch,
+} from '@blueprintjs/core';
 global.Button = Button;
 global.Classes = Classes;
 global.Icon = Icon;
 global.InputGroup = InputGroup;
 global.Intent = Intent;
+global.Switch = Switch;
 
 import {
   ButtonGroup,
   Callout,
   Card,
   ControlGroup,
+  FormGroup,
   Label,
   Navbar,
   NavbarGroup,
@@ -20,6 +29,7 @@ global.ButtonGroup = ButtonGroup;
 global.Callout = Callout;
 global.Card = Card;
 global.ControlGroup = ControlGroup;
+global.FormGroup = FormGroup;
 global.Label = Label;
 global.Navbar = Navbar;
 global.NavbarGroup = NavbarGroup;
