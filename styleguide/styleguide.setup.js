@@ -10,6 +10,7 @@ import {
   Callout,
   Card,
   ControlGroup,
+  Label,
   Navbar,
   NavbarGroup,
   NavbarHeading,
@@ -19,6 +20,7 @@ global.ButtonGroup = ButtonGroup;
 global.Callout = Callout;
 global.Card = Card;
 global.ControlGroup = ControlGroup;
+global.Label = Label;
 global.Navbar = Navbar;
 global.NavbarGroup = NavbarGroup;
 global.NavbarHeading = NavbarHeading;
