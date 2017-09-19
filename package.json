@@ -25,6 +25,7 @@
     "test:watch": "jest --watch",
     "docs": "styleguidist server",
     "docs:build": "styleguidist build",
+    "predeploy": "yarn docs:build",
     "deploy": "gh-pages -d build",
     "release": "semantic-release pre && npm publish && semantic-release post"
   },
