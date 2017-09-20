@@ -41,3 +41,7 @@ pre > code[class*="rsg--code"] {
   padding: 0;
   font-size: 90%;
 }
+
+abbr {
+  cursor: help;
+}
