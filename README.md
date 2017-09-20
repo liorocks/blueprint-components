@@ -15,7 +15,7 @@ The missing components for [Blueprint](http://blueprintjs.com/).
 
 Install Blueprint Components
 
-```
+```shell
 yarn add blueprint-components
 ```
 
@@ -40,7 +40,7 @@ import { ButtonGroup, Label, Navbar, ... } from 'blueprint-components';
 
 PR's are welcome. If you found a bug, typo, or just want to add new features or examples to docs, feel free to make a pull request. 
 
-```
+```shell
 git clone git@github.com:Landish/blueprint-components.git
 cd blueprint-components
 yarn
@@ -50,7 +50,7 @@ Once you've forked/cloned the repo, you can fix the bug, or add new feature.
 
 If you need to open docs on local machine, run the following command:
 
-```
+```shell
 yarn docs
 ```
 
@@ -58,7 +58,7 @@ Then visit [http://localhost:6060/](http://localhost:6060/)
 
 If you need to check the tests, run the command:
 
-```
+```shell
 yarn test
 # Or run the tests in `watch` mode
 yarn test:watch
@@ -66,7 +66,7 @@ yarn test:watch
 
 After you've made your changes, add files to git stage with `git add <file(s)>` and then run the following command instead of `git commit -m "your message"`:
 
-```
+```shell
 yarn cz
 ```
 
