@@ -1,6 +1,6 @@
 {
   "name": "blueprint-components",
-  "version": "0.0.1",
+  "version": "0.0.0-development",
   "main": "src/index.js",
   "description": "The missing components for Blueprint",
   "keywords": [
@@ -34,7 +34,7 @@
     "docs:build": "styleguidist build",
     "predeploy": "yarn docs:build",
     "deploy": "gh-pages -d build",
-    "release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "dependencies": {
     "@blueprintjs/core": "^1.28.0",

@@ -11,4 +11,4 @@ before_script:
 script:
   - yarn test
 after_success:
-  - yarn release
+  - yarn semantic-release
