@@ -3,6 +3,13 @@
   "version": "0.0.0-development",
   "main": "src/index.js",
   "description": "The missing components for Blueprint",
+  "keywords": [
+    "react",
+    "blueprint",
+    "blueprintjs",
+    "components",
+    "ui"
+  ],
   "repository": "git@github.com:Landish/bluprint-components.git",
   "author": "Lado Lomidze <lado.lomidze@gmail.com> (https://ladolomidze.com/)",
   "license": "MIT",
