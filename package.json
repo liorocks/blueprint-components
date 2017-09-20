@@ -10,7 +10,7 @@
     "components",
     "ui"
   ],
-  "repository": "git@github.com:Landish/bluprint-components.git",
+  "repository": "git@github.com:Landish/blueprint-components.git",
   "author": "Lado Lomidze <lado.lomidze@gmail.com> (https://ladolomidze.com/)",
   "license": "MIT",
   "config": {
