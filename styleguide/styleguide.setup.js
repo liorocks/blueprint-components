@@ -18,6 +18,7 @@ import {
   Callout,
   Card,
   ControlGroup,
+  FileInput,
   FormGroup,
   Label,
   Navbar,
@@ -29,6 +30,7 @@ global.ButtonGroup = ButtonGroup;
 global.Callout = Callout;
 global.Card = Card;
 global.ControlGroup = ControlGroup;
+global.FileInput = FileInput;
 global.FormGroup = FormGroup;
 global.Label = Label;
 global.Navbar = Navbar;
